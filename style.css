@@ -63,6 +63,7 @@ h3 {
   max-width: 700px;
   align-self: center;
   border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .div-section {
@@ -98,36 +99,41 @@ h3 {
   text-align: center;
 }
 .services-container > div > img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: auto;
   width: 100%;
 }
 
-#contact{
-    align-items: flex-start;
+#contact {
+  align-items: flex-start;
 }
 
 .icon-container {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .icon {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 footer {
-    margin-top: 20px;
-    background: #120e0d;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-size: 1rem
+  margin-top: 20px;
+  background: #120e0d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 992px) {
   body {
     padding: 20px;
+  }
+  .features-list {
+    padding: 10px;
   }
 }
 
@@ -135,7 +141,10 @@ footer {
   body {
     padding: 15px;
   }
-  .services-container{
+  .services-container {
     grid-template-columns: 1fr;
+  }
+  .features-list {
+    padding: 10px;
   }
 }
