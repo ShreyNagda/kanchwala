@@ -46,7 +46,7 @@ p {
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
@@ -76,8 +76,8 @@ h3 {
 }
 
 .div-section span {
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .features-list {
@@ -145,4 +145,10 @@ footer {
   .features-list {
     padding: 10px;
   }
+  p{
+    font-size: 1.1rem;
+  }
+  .div-section span{
+    font-size: 1.3rem
+  };
 }
