@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     text-decoration: none;
     font-family: Cambria,
         Cochin,
@@ -32,7 +33,7 @@ header span {
     padding: 10px;
 }
 
-section{
+section {
     margin-top: 20px;
     padding: 20px;
     border-radius: 5px;
@@ -51,12 +52,12 @@ section{
     height: auto;
 }
 
-#about h3{
+#about h3 {
     margin-top: 20px;
     font-size: 1.2rem;
 }
 
-p{
+p {
     margin-top: 5px;
     font-size: 1.1rem;
 }
@@ -65,19 +66,20 @@ p{
     font-weight: 600;
 }
 
-ul{
+ul {
     padding: 20px;
+    list-style: none;
 }
-li{
+li {
     margin-top: 5px;
     font-size: 1.1rem;
 }
 
-.icon-container{
+.icon-container {
     margin-top: 10px;
 }
 
-.icon{
+.icon {
     padding-right: 10px;
 }
 
@@ -90,4 +92,22 @@ footer {
     text-align: center;
     color: white;
     font-size: 1rem
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+    grid-auto-flow: dense;
+    grid-gap: 5px;
+}
+
+#grid>div {
+    font-size: 30px;
+    padding: .5em;
+    /* color: #ffffff; */
+    text-align: center;
+}
+
+#grid>div>img {
+    height: auto;
+    width: 100%;
 }
